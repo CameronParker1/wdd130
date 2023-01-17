@@ -1,0 +1,11 @@
+h1, a{
+    color: steelblue;
+}
+
+#emphasis{
+    color: red;
+}
+
+.room{
+    border: 1px solid orange;
+}
