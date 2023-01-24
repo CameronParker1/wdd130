@@ -1,11 +1,36 @@
-h1, a{
+
+
+h1, a {
     color: steelblue;
 }
 
-#emphasis{
+#emphasis {
     color: red;
 }
 
-.room{
+.room {
     border: 1px solid orange;
 }
+
+img {
+    width: 500px;
+    margin: 0 auto;
+    display: block; 
+}
+
+p {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;  
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
