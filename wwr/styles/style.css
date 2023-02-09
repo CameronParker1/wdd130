@@ -146,6 +146,11 @@ footer .social img {
 
 .icon {
     padding-top: 10px;
+    width: 80px;
+}
+
+.logo {
+    width: 80px;
 }
 
 .rivers-card, .camping-card, .rapids-card {
