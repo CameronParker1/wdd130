@@ -53,7 +53,7 @@ header {
 
 nav a:hover {
     background-color: #fcbf49;
-    color: white;
+    color: black;
 }
 
 .book {
@@ -78,7 +78,7 @@ nav a:hover {
 
 .book:hover, .join:hover {
     background-color: #fcbf49;
-    color: white;
+    color: black;
 }
 
 .msg {
@@ -282,3 +282,113 @@ nav {
         margin-top: 25px;
     }
 }
+
+
+
+/* Rivers CSS */
+
+.rivers-grid {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    justify-items: center;
+    
+}
+
+header {
+    background-color: #026c7c;
+}
+
+.salmon-river {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .25fr 1fr;
+    justify-items: center;
+    grid-gap: 20px
+}
+.salmon-river ul {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 50px;
+    text-align: left;
+}
+
+.salmon-img {
+    border: 10px solid #026c7c;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.salmon-river h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-self: end;
+}
+
+.gray-river {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .25fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
+.gray-img {
+    border: 10px solid #026c7c;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.gray-river ul {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 50px;
+    text-align: left;
+}
+
+.gray-river h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-self: end;
+}
+
+.grand-canyon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .25fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
+
+.grand-canyon-img {
+    border: 10px solid #026c7c;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.grand-canyon ul {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 50px;
+    text-align: left;
+}
+
+.grand-canyon h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-self: end;
+}
+
+
+
