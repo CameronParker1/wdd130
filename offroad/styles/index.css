@@ -66,7 +66,7 @@ nav a {
 header {
     /*background-color: rgba(0,0,0,0.5);*/
     background-color: #FFCF33;
-    padding: 15px 50px;
+    /*padding: 15px 50px;*/
 }
 
 header {
@@ -104,7 +104,7 @@ footer a:hover {
 }
 
 footer p {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 footer p a:hover {
