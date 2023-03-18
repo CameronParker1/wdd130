@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rubik:wght@300&display=swap');
 
 #content {
-    /*max-width: 1600px;*/
-    width: 100%;
+    max-width: 1600px;
+    /*width: 100%;*/
     margin: 0 auto;
 }
 
