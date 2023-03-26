@@ -345,6 +345,7 @@ body {
     grid-row: 1/2;
     align-self: end;
     color: #1A1D1A;
+    padding-top: 100px;
 }
 
 li {
